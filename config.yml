@@ -1,0 +1,16 @@
+title: 'Printing trasfer sow clothing '
+description: 'Design for clothing art through to design '
+template:
+  repo: printing-trasfer-sow-clothing-template
+  name: printing-trasfer-sow-clothing
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
